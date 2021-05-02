@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aaa {
+  width: 100%;
+  height: 50px;
+}
+
+.top {
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.bbb {
+  width: 300px;
+  background-color: #eeeeee;
+  position: relative;
+  padding: 10px;
+}
+
+.box2 {
+  margin: 0 30px;
+}
+
+.box-mini {
+  background-color: #ff9a4b;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ccc {
+  width: 280px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url(iii.img/flow01.png);
+}
+
+.image2 {
+  background-image: url(iii.img/flow02.png);
+}
+
+.image3 {
+  background-image: url(iii.img/flow03.png);
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.bottom {
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width:768px) {
+  main{
+    width: 90%;
+    display: block;
+  }
+
+  .bbb{
+    width: 100%;
+  }
+
+  .box2{
+    margin: 20px auto;
+  }
+
+  .ccc{
+    width: 100%;
+  }
+}
